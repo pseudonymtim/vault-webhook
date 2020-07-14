@@ -2,6 +2,8 @@ module github.com/uswitch/vault-webhook
 
 go 1.13
 
+replace github.com/googleapis/gnostic => github.com/googleapis/gnostic v0.4.0
+
 require (
 	github.com/NYTimes/gziphandler v0.0.0-20170623195520-56545f4a5d46 // indirect
 	github.com/PuerkitoBio/purell v1.0.0 // indirect
@@ -42,5 +44,3 @@ require (
 	k8s.io/kubernetes v1.12.0-alpha.0.0.20180724090559-4e5c781b7dfe
 	sigs.k8s.io/structured-merge-diff/v3 v3.0.0-20200116222232-67a7b8c61874 // indirect
 )
-
-replace github.com/googleapis/gnostic => github.com/googleapis/gnostic v0.4.0
